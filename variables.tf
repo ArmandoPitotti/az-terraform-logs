@@ -5,12 +5,12 @@ variable "log_analytics_workspace_sku" {
   default = "Free"
 }
 
-variable "daily_quota_gb" {
+variable "log_analytics_workspace_daily_quota_gb" {
   type        = number
   default     = 0.05
 }
 
-variable "retention_in_days" {
+variable "log_analytics_workspace_retention_in_days" {
     type      = number
     default     = 30
 }
